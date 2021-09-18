@@ -4,7 +4,7 @@ let userName = promptLine.question("What's your name? ");
 
 //function to print welcome messgae
 function welcomeUser(userName) {
-  console.log(`Hai ${userName}, Lets test your knowledge on Football.`);
+  console.log(`\nHai ${userName}, Lets test your knowledge on Football.`);
 }
 welcomeUser(userName);
 
@@ -14,25 +14,25 @@ let points = 0;
 //questions array
 const quiz = [
   {
-    question: "\nWho has scored the most number of international goals? ",
-    answer: 'Ronaldo'
+    question: "\nWho has scored the most number of international goals?\na: Cristiano Ronaldo\nb: Lional Messi\nc: Pele\nd: Diego Maradona\n\t ",
+    answer: 'a'
   },
   {
-    question: "\nWho has the most number of golden boots? ",
-    answer: "Messi"
+    question: "\nWho has the most number of golden boots?\na: Robert Lewendowski\nb: Cristiano Ronaldo\nc: Neymar\nd: Lional Messi\n\t ",
+    answer: "d"
   },
   {
-    question: "\nWhich country has the most number of World cups? ",
-    answer: "Brazil"
+    question: "\nWhich country has the most number of World cups?\na: Argentinai\nb: Germany\nc: Brazil\nd: Spain\n\t ",
+    answer: "c"
   },
   {
-    question: "\nWhich Football club has the most number of Uefa Champions League Titles? ",
-    answer: "Real Madrid"
+    question: "\nWhich Football club has the most number of Uefa Champions League Titles?\na: Barcelona\nb: Real Madrid\nc: Manchester United\nd:  Liverpool\n\t ",
+    answer: "b"
   },
 
   {
-    question: "\nWhich team won the Copa America 2021? ",
-    answer: "Argentina"
+    question: "\nWhich team won the Copa America 2021?\na: Brazil\nb: Equador\nc: Chile\nd: Argentina\n\t ",
+    answer: "d"
   }
 ];
 
