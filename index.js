@@ -14,24 +14,24 @@ let points = 0;
 //questions array
 const quiz = [
   {
-    question: "\nWho has scored the most number of international goals?\na: Cristiano Ronaldo\nb: Lional Messi\nc: Pele\nd: Diego Maradona\n\t ",
+    question: "\nWho has scored the most number of international goals?\na: Cristiano Ronaldo\nb: Lional Messi\nc: Pele\nd: Diego Maradona\nYour Answer :  ",
     answer: 'a'
   },
   {
-    question: "\nWho has the most number of golden boots?\na: Robert Lewendowski\nb: Cristiano Ronaldo\nc: Neymar\nd: Lional Messi\n\t ",
+    question: "\nWho has the most number of golden boots?\na: Robert Lewendowski\nb: Cristiano Ronaldo\nc: Neymar\nd: Lional Messi\nYour Answer : ",
     answer: "d"
   },
   {
-    question: "\nWhich country has the most number of World cups?\na: Argentinai\nb: Germany\nc: Brazil\nd: Spain\n\t ",
+    question: "\nWhich country has the most number of World cups?\na: Argentinai\nb: Germany\nc: Brazil\nd: Spain\nYour Answer :  ",
     answer: "c"
   },
   {
-    question: "\nWhich Football club has the most number of Uefa Champions League Titles?\na: Barcelona\nb: Real Madrid\nc: Manchester United\nd:  Liverpool\n\t ",
+    question: "\nWhich Football club has the most number of Uefa Champions League Titles?\na: Barcelona\nb: Real Madrid\nc: Manchester United\nd:  Liverpool\nYour Answer :  ",
     answer: "b"
   },
 
   {
-    question: "\nWhich team won the Copa America 2021?\na: Brazil\nb: Equador\nc: Chile\nd: Argentina\n\t ",
+    question: "\nWhich team won the Copa America 2021?\na: Brazil\nb: Equador\nc: Chile\nd: Argentina\nYour Answer :  ",
     answer: "d"
   }
 ];
