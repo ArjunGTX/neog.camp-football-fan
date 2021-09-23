@@ -47,10 +47,10 @@ const highScore = [
 //asking each question
 quiz.forEach((element) => {
   let userAnswer = promptLine.question(element.question);
-  if(userAnswer === element.answer) {
+  if(userAnswer.toUpperCase() === element.answer) {
    //incrementing score
       points += 10;
-      console.log(`Wow ${userName}, good job. You got 10 points`);
+      console.log(`Wow ${userName}, good job. You got ${points} points`);
     }
     else {
       console.log("Oops!,Thats wrong.");
